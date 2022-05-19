@@ -31,6 +31,11 @@ class MainActivity : AppCompatActivity() {
             replacementFragment(fragmentThree())
         }
 
+        binding.fragmentFourButton.setOnClickListener {
+
+            replacementFragment(fragmentFour())
+        }
+
     }
 
     private fun replacementFragment(fragment: Fragment) {
